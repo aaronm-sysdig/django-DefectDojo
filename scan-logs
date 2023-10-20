@@ -1,0 +1,8 @@
+{"level":"info","version":"1.3.8","commit":"9cec729","time":"2023-10-08T16:18:03+11:00","message":"Starting analysis with Sysdig scanner"}
+{"level":"info","time":"2023-10-08T16:18:03+11:00","message":"Using path for the cache: /Users/aaron.miles/Library/Caches/inlineScannerCache.db"}
+{"level":"info","time":"2023-10-08T16:18:03+11:00","message":"Retrieving MainDB"}
+{"level":"info","time":"2023-10-08T16:18:03+11:00","message":"current db is older than 24h0m0s, check for updates"}
+{"level":"info","time":"2023-10-08T16:18:03+11:00","message":"Newer MainDB available, overwrite current one"}
+{"level":"info","time":"2023-10-08T16:18:03+11:00","message":"Downloading a new MainDB to /Users/aaron.miles/main.db/sysdig-db-data"}
+{"level":"warn","time":"2023-10-08T16:18:09+11:00","message":"Received interrupt, gracefully shutdown"}
+{"level":"error","error":"Unable to retrieve MainDB: download with presigned URL failed: cannot extract db files from gzip reader: failed to copy file from tar to /Users/aaron.miles/main.db/temp-main.db-3456186110/001559.sst: context canceled","time":"2023-10-08T16:18:09+11:00","message":"Exiting now"}
