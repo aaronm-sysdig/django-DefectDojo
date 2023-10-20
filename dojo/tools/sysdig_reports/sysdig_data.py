@@ -41,10 +41,15 @@ class SysdigData:
         self.k8s_container_name: str  = ""
         self.image_id: str = ""
         self.k8s_pod_count: str = 0
-        self.package_suggested: str = ""
         self.in_use: bool  = False
         self.risk_accepted: bool = False
         self.publish_date: datetime.date = None
         self.component_version: str = ""
         self.package_suggested_fix: str = ""
         self.image_type: str = ""
+        self.registry_name: str = ""
+        self.registry_image_repository: str = ""
+        self.registry_vendor:str = ""
+        self.cloud_provider_name:str = ""
+        self.cloud_provider_account_id:str = ""
+        self.cloud_provider_region:str = ""
